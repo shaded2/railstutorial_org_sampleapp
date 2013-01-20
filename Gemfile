@@ -28,12 +28,14 @@ gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'capybara', '1.1.2'
+  
+  # MacOS specific
   gem 'rb-fsevent', '0.9.1', :require => false
-  #gem 'growl', '1.0.3'
+  gem 'growl', :require => false
 
-  # linux specific
-    # gem 'rb-inotify', '0.8.8'
-    # gem 'libnotify', '0.5.9'
+  # Linux specific
+  gem 'rb-inotify', '0.8.8',  :require => false
+  gem 'libnotify', '0.5.9', :require => false
 end
 
 group :production do
