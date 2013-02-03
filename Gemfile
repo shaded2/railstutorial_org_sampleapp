@@ -28,10 +28,11 @@ gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'factory_girl_rails', '4.1.0'
   
   # MacOS specific
   gem 'rb-fsevent', '0.9.1', :require => false
-  gem 'growl', :require => false
+  #gem 'growl', :require => false
 
   # Linux specific
   gem 'rb-inotify', '0.8.8',  :require => false
