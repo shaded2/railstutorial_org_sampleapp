@@ -32,7 +32,7 @@ group :test do
   
   # MacOS specific
   gem 'rb-fsevent', '0.9.1', :require => false
-  #gem 'growl', :require => false
+  gem 'growl', :require => false
 
   # Linux specific
   gem 'rb-inotify', '0.8.8',  :require => false
